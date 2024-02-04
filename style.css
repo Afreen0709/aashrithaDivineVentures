@@ -1,0 +1,171 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+  }
+  .batan {
+    background-color: #df9f53;
+    color: white;
+    border-radius: 7px;
+  }
+
+  .batan .btn {
+    color: white;
+    border-radius: 7px;
+  }
+
+  .batann {
+    position: fixed;
+    top: 60%;
+    rotate: -90deg;
+    right: -40px;
+    border-radius: 7px;
+  }
+
+  .btn-btn {
+    background-color: #df9f53;
+    color: white !important;
+    padding: 5px;
+  }
+
+  .btn-btn:hover {
+    background-color: #936329;
+    color: white !important;
+  }
+.par{
+  display: flex;
+  justify-content: center;
+}
+  .navi {
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+  }
+  .barb {
+    background-color: #df9f53;
+    color: white;
+    padding: 0%;
+  }
+  .container h4 p {
+    color: #df9f53;
+    font-size: smaller;
+    font-weight: 400;
+  }
+
+  .bord-right{
+    border-right: 1px solid grey;
+  }
+
+  .cm-col{
+    color: #df9f53;
+    font-size: 18px;
+  }
+  .pro {
+    font-weight: 400;
+    color: #df9f53;
+  }
+
+  .ame-img{
+    width: 35%;
+  }
+
+  .first {
+    background-color: #f3f2ee;
+  }
+  .amenity {
+    background-color: #f0e4d4;
+  }
+  .images {
+    border-radius: 17px;
+  }
+  .vid {
+    background-color: #f3f2ee;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .table li{
+    list-style: none;
+    border-bottom: 1px solid grey;
+    padding: 2px;
+    
+  }
+ .table{
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    padding-left: 0%;
+    text-align: center;
+    height: 100%;
+    
+  }
+  .heading{
+    background-color:#df9f53 ;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .img-bank li{
+    list-style: none;
+    padding: 20px;
+  }
+  .img-bank{
+    display: flex;
+    justify-content:center;
+  }
+  .guess{
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+  }
+  .guess-who{
+    background-color: #f3f2ee;
+  }
+  .name input{
+    width: 45%;
+  }
+  .phone input{
+    width: 90%;
+  }
+  .msg input{
+    width: 90%;
+  }
+  .sub{
+    border-radius: 7px;
+    padding: 4px;
+  }
+
+  .guess{
+    width: 15%;
+  }
+
+
+  @media only screen and (max-width:760px){
+
+    .contt{
+      padding-top: 22%;
+    }
+  
+    .bord-right{
+      margin-bottom: 5%;
+    }
+
+    .advn{
+      font-size: 16px;
+    }
+
+    .guess {
+      width: 30%;
+  }
+  .par{
+    text-align: center;
+  }
+  }
